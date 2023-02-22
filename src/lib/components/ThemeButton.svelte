@@ -1,7 +1,10 @@
 <script lang="ts">
   const toggleTheme = () => {
-    document.body.classList.toggle("dark-mode");
+    document.documentElement.classList.toggle("dark");
   };
 </script>
 
-<button on:click={toggleTheme}>Toggle Theme</button>
+<button
+  class="bg-light-gray dark:bg-dark-gray rounded-full px-4 py-2"
+  on:click={toggleTheme}>Toggle Theme</button
+>
