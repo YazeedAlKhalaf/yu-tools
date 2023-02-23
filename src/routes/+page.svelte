@@ -1,6 +1,5 @@
 <script lang="ts">
   import Button from "$lib/components/Button.svelte";
-  import ThemeButton from "$lib/components/ThemeButton.svelte";
   import robot from "$lib/images/robot.png";
   import robot_dark from "$lib/images/robot-dark.png";
   import ToolCard from "$lib/components/ToolCard.svelte";
@@ -19,8 +18,6 @@
 </svelte:head>
 
 <div>
-  <ThemeButton />
-
   <!-- hero section -->
   <section
     class="flex flex-col-reverse md:flex-row items-center justify-center mb-16 md:mb-0 min-h-screen"

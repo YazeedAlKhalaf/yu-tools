@@ -1,10 +1,12 @@
 <script lang="ts">
   import "./styles.css";
   import "iconify-icon";
+  import ThemeButton from "$lib/components/ThemeButton.svelte";
 </script>
 
 <div class="flex flex-col min-h-screen">
   <main class="flex-1 flex flex-col p-4 max-w-5xl m-auto box-border">
+    <ThemeButton />
     <slot />
   </main>
   <footer class="flex flex-col justify-center items-center p-3">
