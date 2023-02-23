@@ -18,10 +18,12 @@
   <ThemeButton />
 
   <!-- hero section -->
-  <section class="flex flex-row items-center justify-center">
-    <div class="flex-5">
-      <h1 class="text-orange font-bold text-6xl">YU Tools</h1>
-      <p class="text-2xl pb-2">
+  <section
+    class="flex flex-col-reverse md:flex-row items-center justify-center mb-16 md:mb-0 min-h-screen"
+  >
+    <div class="text-center">
+      <h1 class="text-orange font-bold text-4xl md:text-6xl">YU Tools</h1>
+      <p class="text-xl md:text-2xl pb-2">
         The hammer and the drill<br />you’ve always dreamt of!
       </p>
       <Button text="View Tools" leadingIcon="bi:tools" onClick={() => {}} />
@@ -34,7 +36,9 @@
     <h1 class="text-orange font-bold text-5xl text-center mb-4">
       Featured Tools
     </h1>
-    <div class="flex flex-row space-x-5 mb-4">
+    <div
+      class="flex flex-col md:flex-row space-y-5 md:space-y-0 space-x-0 md:space-x-5 px-8 md:px-0 mb-4"
+    >
       <ToolCard
         imageSrc="https://i.ibb.co/8YNQbWt/header-image.png"
         imageAlt="tuwaiq classrooms website header"

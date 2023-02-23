@@ -13,7 +13,7 @@
 </script>
 
 <div class="bg-light-gray dark:bg-dark-gray rounded-2xl flex-1">
-  <img class="rounded-t-2xl" src={imageSrc} alt={imageAlt} />
+  <img class="rounded-t-2xl w-full" src={imageSrc} alt={imageAlt} />
   <h3 class="font-medium text-2xl text-center mt-4 px-3">{title}</h3>
   <p class="text-lg text-center px-3">{description}</p>
   <div class="flex flex-row space-x-3 justify-center items-center mt-4">
