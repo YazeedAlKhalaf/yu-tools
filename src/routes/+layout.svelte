@@ -4,6 +4,14 @@
   import ThemeButton from "$lib/components/ThemeButton.svelte";
 </script>
 
+<svelte:head>
+  <title>YU Tools</title>
+  <meta
+    name="description"
+    content="Tools for the students of Al Yamamah Unversity!"
+  />
+</svelte:head>
+
 <div class="flex flex-col min-h-screen">
   <main class="flex-1 flex flex-col p-4 max-w-5xl m-auto box-border">
     <ThemeButton />

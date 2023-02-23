@@ -9,14 +9,6 @@
   const featuredTools = tools.filter((tool: Tool) => tool.isFeatured);
 </script>
 
-<svelte:head>
-  <title>YU Tools</title>
-  <meta
-    name="description"
-    content="Tools for the students of Al Yamamah Unversity!"
-  />
-</svelte:head>
-
 <div>
   <!-- hero section -->
   <section
