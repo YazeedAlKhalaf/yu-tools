@@ -5,7 +5,7 @@
   export let imageAlt: string;
   export let title: string;
   export let description: string;
-  export let gituhbLink: string = "";
+  export let githubLink: string = "";
   export let twitterLink: string = "";
   export let websiteLink: string = "";
   export let appStoreLink: string = "";
@@ -17,9 +17,9 @@
   <h3 class="font-medium text-2xl text-center mt-4 px-3">{title}</h3>
   <p class="text-lg text-center px-3">{description}</p>
   <div class="flex flex-row space-x-3 justify-center items-center mt-4">
-    {#if gituhbLink != ""}
+    {#if githubLink != ""}
       <a
-        href={gituhbLink}
+        href={githubLink}
         target="_blank"
         rel="noreferrer"
         class="hover:text-orange"
