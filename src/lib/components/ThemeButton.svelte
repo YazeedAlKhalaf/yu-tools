@@ -1,10 +1,9 @@
 <script lang="ts">
+  import Button from "./Button.svelte";
+
   const toggleTheme = () => {
     document.documentElement.classList.toggle("dark");
   };
 </script>
 
-<button
-  class="bg-light-gray dark:bg-dark-gray rounded-full px-4 py-2"
-  on:click={toggleTheme}>Toggle Theme</button
->
+<Button text="Toggle Theme" onClick={toggleTheme} />
