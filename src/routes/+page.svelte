@@ -73,11 +73,4 @@
       />
     </div>
   </section>
-
-  <!-- featured tools section -->
-  <section>
-    <h1 class="text-orange font-bold text-5xl text-center">
-      Wanna add your tool?
-    </h1>
-  </section>
 </div>
